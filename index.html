@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="whetherApp">
+      <form action="" class="searchForm">
+        <input
+          type="text"
+          placeholder="Enter city name"
+          class="searchForm"
+          name="city"
+        />
+        <button class="searchBtn">
+          <i class="material-icons">search</i>
+        </button>
+      </form>
+
+      <div class="cityDate">
+        <h2 class="city">Pune</h2>
+        <h1 class="date">7 jan 2023</h1>
+      </div>
+
+      <div class="tempInfo">
+        <div class="desciption">
+          <!-- <i class="material-icons">sunny</i> -->
+          <img src="//cdn.weatherapi.com/weather/64x64/day/143.png" alt="" />
+          <span class="desciptionText">Sunny</span>
+        </div>
+        <div class="temperature">
+          <h1 class="temp">20</h1>
+          <h1>°C</h1>
+        </div>
+      </div>
+
+      <!-- section3 -->
+      <div class="addInfo">
+        <div class="windInfo div">
+          <i class="material-icons">air</i>
+          <div>
+            <h1 class="windSpeed">4 km/hr</h1>
+            <h1 class="windLabel">Wind</h1>
+          </div>
+        </div>
+
+        <div class="humidity div">
+          <i class="material-icons">water_drop</i>
+          <div>
+            <h1 class="humidityLevel">45%</h1>
+            <h1 class="windLabel">humidity</h1>
+          </div>
+        </div>
+
+        <div class="visiblityInfo div">
+          <i class="material-icons">visibility</i>
+          <div>
+            <h1 class="visiblityDistance">4 km/h</h1>
+            <h1 class="visiblitylevel">visiblity</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

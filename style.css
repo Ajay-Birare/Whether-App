@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: royalblue;
+  height: 100%;
+}
+.whetherApp {
+  background-color: white;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.searchForm {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.searchBtn {
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: skyblue;
+  margin-left: 10px;
+  padding: 20px;
+}
+.searchBtn:hover {
+  background-color: black;
+}
+/* serch butn hover  */
+
+.cityDate {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.cityDate .city {
+  font-size: 2rem;
+}
+
+.cityDate .date {
+  background-color: antiquewhite;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+.tempInfo {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.temperature {
+  display: flex;
+}
+
+.tempInfo .temp {
+  font-size: 5rem;
+}
+
+.tempInfo .desciption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tempInfo .desciption i {
+  font-size: 2rem;
+}
+.tempInfo .desciption span {
+  font-size: 1.5rem;
+}
+
+.addInfo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.addInfo .div {
+  background-color: white;
+  width: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 2px 3px 2px 2px gray;
+  text-align: center;
+}
+
+.addInfo i {
+  font-size: 2rem;
+}
+
+.addInfo .div h1 {
+  font-size: 1.2rem;
+  margin: 10px;
+}
